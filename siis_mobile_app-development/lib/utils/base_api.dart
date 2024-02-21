@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class BaseApi{
-  static String url = 'https://backendv2.technixlabs.org/api';
+  static String url = 'https://siisapi.education.gov.mw/api';
   static String loginPath = '$url/users/login';
   static String nationalStandardsPath = '$url/national_standards';
   static String districtPath = '$url/districts';
